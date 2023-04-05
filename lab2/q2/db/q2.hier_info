@@ -1,0 +1,10 @@
+|q2
+a2 <= g2.DB_MAX_OUTPUT_PORT_TYPE
+g2 => a2.DATAIN
+g2 => inst.IN0
+a1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+g1 => inst.IN1
+a0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+g0 => inst1.IN1
+
+

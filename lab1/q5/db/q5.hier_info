@@ -1,0 +1,110 @@
+|q5
+pin_name1 <= mux8x1:inst.out
+zero => mux8x1:inst.in0
+zero => mux8x1:inst.in7
+one => mux8x1:inst.in1
+D => mux8x1:inst.in2
+D => mux8x1:inst.in3
+D => inst2.IN0
+D => mux8x1:inst.in5
+D => mux8x1:inst.in6
+A => mux8x1:inst.s2
+B => mux8x1:inst.s1
+C => mux8x1:inst.s0
+
+
+|q5|mux8x1:inst
+out <= mux2x1:inst2.out
+in0 => mux4x1:inst.in0
+in1 => mux4x1:inst.in1
+s1 => mux4x1:inst.s1
+s1 => mux4x1:inst1.s1
+s0 => mux4x1:inst.s0
+s0 => mux4x1:inst1.s0
+in2 => mux4x1:inst.in2
+in3 => mux4x1:inst.in3
+s2 => mux2x1:inst2.s
+in4 => mux4x1:inst1.in0
+in5 => mux4x1:inst1.in1
+in6 => mux4x1:inst1.in2
+in7 => mux4x1:inst1.in3
+
+
+|q5|mux8x1:inst|mux2x1:inst2
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+in1 => inst1.IN1
+in0 => inst.IN0
+
+
+|q5|mux8x1:inst|mux4x1:inst
+out <= mux2x1:inst2.out
+in0 => mux2x1:inst1.in0
+s0 => mux2x1:inst1.s
+s0 => mux2x1:inst.s
+in1 => mux2x1:inst1.in1
+s1 => mux2x1:inst2.s
+in2 => mux2x1:inst.in0
+in3 => mux2x1:inst.in1
+
+
+|q5|mux8x1:inst|mux4x1:inst|mux2x1:inst2
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+in1 => inst1.IN1
+in0 => inst.IN0
+
+
+|q5|mux8x1:inst|mux4x1:inst|mux2x1:inst1
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+in1 => inst1.IN1
+in0 => inst.IN0
+
+
+|q5|mux8x1:inst|mux4x1:inst|mux2x1:inst
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+in1 => inst1.IN1
+in0 => inst.IN0
+
+
+|q5|mux8x1:inst|mux4x1:inst1
+out <= mux2x1:inst2.out
+in0 => mux2x1:inst1.in0
+s0 => mux2x1:inst1.s
+s0 => mux2x1:inst.s
+in1 => mux2x1:inst1.in1
+s1 => mux2x1:inst2.s
+in2 => mux2x1:inst.in0
+in3 => mux2x1:inst.in1
+
+
+|q5|mux8x1:inst|mux4x1:inst1|mux2x1:inst2
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+in1 => inst1.IN1
+in0 => inst.IN0
+
+
+|q5|mux8x1:inst|mux4x1:inst1|mux2x1:inst1
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+in1 => inst1.IN1
+in0 => inst.IN0
+
+
+|q5|mux8x1:inst|mux4x1:inst1|mux2x1:inst
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+s => inst1.IN0
+s => inst3.IN0
+in1 => inst1.IN1
+in0 => inst.IN0
+
+
