@@ -1,0 +1,23 @@
+|q5completo
+Y2 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+X4 => inst13.IN0
+X7 => inst12.IN0
+X7 => inst9.IN1
+X7 => inst11.IN0
+X5 => inst12.IN1
+X6 => inst15.IN1
+X6 => inst9.IN0
+X6 => inst16.IN0
+A <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+X0 => inst7.IN0
+X3 => inst6.IN0
+X3 => inst4.IN1
+X3 => inst5.IN0
+X1 => inst6.IN1
+X2 => inst10.IN1
+X2 => inst4.IN0
+X2 => inst.IN0
+Y1 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+Y0 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+
